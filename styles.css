@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: transparent; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+}
+
+
+.app {
+  width: 214px;
+  height: 228px;
+  -webkit-app-region: drag;
+
+  background-image: url("assets/images/outer-frame-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+
+.title {
+  padding: 6px 18px;
+  border-radius: 20px;
+   -webkit-app-region: no-drag;
+  border: 2px solid #ff7ce7;
+  color: rgb(223, 15, 133);
+  font-weight: 600;
+  background: linear-gradient(180deg, #f5c4fa, #ff7ce7);
+  margin-bottom: 10px;
+}
+
+
+#calendar {
+  width: 85%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#day {
+  font-size: 80px;
+  font-weight: 800;
+  color: #f5c4fa;
+  -webkit-text-stroke: 3px  #ff7ce7;
+}
+
+
+#month {
+  margin-top: 5px;
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color:  #f5c4fa ;
+  -webkit-text-stroke: 1.5px  #ff7ce7;
+}
